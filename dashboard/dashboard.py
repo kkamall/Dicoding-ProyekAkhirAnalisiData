@@ -7,7 +7,7 @@ import streamlit as st
 sns.set(style='dark')
 
 # Importing dataset
-day_df = pd.read_csv('https://github.com/kkamall/Dicoding-ProyekAkhirAnalisisData/blob/main/dashboard/main_data.csv')
+day_df = pd.read_csv('https://raw.githubusercontent.com/kkamall/Dicoding-ProyekAkhirAnalisisData/main/dashboard/main_data.csv')
 
 # Change date range data type from object to date
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
