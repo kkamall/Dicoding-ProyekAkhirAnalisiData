@@ -19,7 +19,7 @@ max_date = day_df['dteday'].max()
 # Membuat sidebar
 with st.sidebar:
     # Menambahkan logo
-    st.image('https://github.com/kkamall/Dicoding-ProyekAkhirAnalisisData/blob/main/dashboard/logo.png')
+    st.image('https://raw.githubusercontent.com/kkamall/Dicoding-ProyekAkhirAnalisisData/main/dashboard/logo.png')
 
     # Membuat filter date berdasarkan field order date
     start_date, end_date = st.date_input(
